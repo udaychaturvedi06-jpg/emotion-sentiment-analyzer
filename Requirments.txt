@@ -1,0 +1,25 @@
+Recommended: Python 3.10.x (Best compatibility)
+Minimum: Python 3.8
+Core Libraries
+
+opencv-python==4.9.0.80
+numpy==1.26.4
+pillow==10.3.0
+
+Audio Processing
+
+sounddevice=0.4.6
+SpeechRecognition=3.10.1
+pyaudio=0.2.14
+
+NLP
+
+textblob=0.17.1
+
+Optional (recommended for stability)
+
+scipy==1.11.4
+
+Notes:
+- PyAudio may require manual installation on Windows
+- Internet connection required for speech recognition

@@ -64,6 +64,9 @@ python main.py
 ```
 main.py
 README.md
+Requirments.txt
+Statment.md
+
 ```
 
 
@@ -71,7 +74,7 @@ README.md
 ## Limitations
 
 * Uses heuristic emotion detection
-* Gesture detection depends on lighting
+* Detection depends on lighting
 * Requires internet for speech recognition
 
 

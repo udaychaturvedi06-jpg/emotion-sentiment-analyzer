@@ -37,6 +37,14 @@ With gesturebased interaction and a stable output system, the project demonstrat
 
 pip install opencvpython pillow numpy textblob speechrecognition sounddevice
 
+*(Satisfy these dependencies too if not preinstalled)Built-in modules like:
+
+tkinter
+threading
+queue
+wave
+time
+
 
 
 

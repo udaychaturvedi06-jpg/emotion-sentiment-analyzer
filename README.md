@@ -1,4 +1,4 @@
-# EmotionSentimentAnalyzer
+# Emotion-Sentiment-Analyzer
 Realtime emotion detection using face and voice analysis. A multimodal approach to understanding human behavior.An intelligent system that understands emotions through face and voice. Bringing humanlike perception to machines using AI techniques.
 
 ## Overview

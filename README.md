@@ -56,7 +56,9 @@ python main.py
 | Upload Image  | Button                |
 | Capture Image | Hold Gesture          |
 | Freeze Output | Button                |
+When an image is uploaded, the system automatically processes it in the background without requiring any extra steps. The detected emotion is then added to the result history, allowing users to track recent outputs easily.
 
+This makes the interaction smoother and avoids unnecessary manual actions.
 
 
 ## Project Structure

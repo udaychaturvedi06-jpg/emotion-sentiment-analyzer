@@ -4,9 +4,10 @@ Real-time emotion detection using face and voice analysis. A multimodal approach
 ## Overview
 
 This project is a real-time Emotion & Sentiment Analyzer that uses facial expressions and voice input to determine a user’s emotional state.
-
 It combines computer vision and NLP techniques into a single interactive application.
-
+This project simulates an intelligent human-aware system capable of understanding emotions through both facial expressions and voice. By combining visual perception and language analysis, it attempts to bridge the gap between human behavior and machine understanding.
+The application operates in real time, capturing facial data via webcam and analyzing speech sentiment through audio input. A fusion mechanism integrates both signals to provide a more accurate emotional interpretation.
+With gesture-based interaction and a stable output system, the project demonstrates how multimodal AI can enhance user experience in future human-computer interaction systems.
 ---
 
 ## Features

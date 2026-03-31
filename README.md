@@ -59,7 +59,7 @@ python main.py
 ## Controls
 
 | Action        | Method                |
-|  |  |
+
 | Record Audio  | Button / Palm Gesture |
 | Upload Image  | Button                |
 | Capture Image | Hold Gesture          |

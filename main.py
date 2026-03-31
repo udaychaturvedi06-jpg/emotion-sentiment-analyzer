@@ -66,7 +66,7 @@ class UdayAI:
         # CAMERA
         self.cap = cv2.VideoCapture(0)
         if not self.cap.isOpened():
-            self.result_label.config(text="❌ Camera not detected")
+            self.result_label.config(text=" Camera not detected")
             self.running = False
             return
 
@@ -87,10 +87,10 @@ class UdayAI:
     def sentiment(self, text):
         score = TextBlob(text).sentiment.polarity
         if score > 0.2:
-            return "Positive 😊"
+            return "Positive "
         elif score < -0.2:
-            return "Negative 😠"
-        return "Neutral 😐"
+            return "Negative "
+        return "Neutral "
 
     #  FACE ANALYSIS 
     def analyze_face(self, face):
@@ -102,23 +102,23 @@ class UdayAI:
             face, scaleFactor=1.5, minNeighbors=20)
 
         if len(smiles) > 0:
-            return "Happy 😊", 90
+            return "Happy ", 90
         elif brightness < 50:
-            return "Sad 😢", 75
+            return "Sad ", 75
         elif contrast < 25:
-            return "Neutral 😐", 70
+            return "Neutral ", 70
         else:
-            return "Neutral 🙂", 65
+            return "Neutral ", 65
 
     
     def final_decision(self):
         if "Happy" in self.face and "Positive" in self.audio:
-            return "Excited 😄"
+            return "Excited "
         elif "Sad" in self.face and "Negative" in self.audio:
-            return "Depressed 😞"
+            return "Depressed "
         elif "Negative" in self.audio:
-            return "Stressed 😓"
-        return "Balanced 🙂"
+            return "Stressed "
+        return "Balanced "
 
     #  AUDIO 
     def record_audio(self):

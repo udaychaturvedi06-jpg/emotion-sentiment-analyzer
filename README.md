@@ -12,12 +12,12 @@ With gesturebased interaction and a stable output system, the project demonstrat
 
 ## Features
 
-* 🎥 Realtime face detection
-* 🎤 Voice sentiment analysis
-* ✋ Gesturebased controls
-* 🧊 Freeze mode for stable output
-* 📊 Emotion history tracking
-* 🖥️ Interactive GUI using Tkinter
+*  Realtime face detection
+*  Voice sentiment analysis
+*  Gesturebased controls
+*  Freeze mode for stable output
+*  Emotion history tracking
+*  Interactive GUI using Tkinter
 
 
 

@@ -22,4 +22,4 @@ The project is intentionally kept simple so that it can run easily on a normal s
 
 This project is mainly designed for college students who want to understand how real-time systems work, beginners who are learning computer vision and basic NLP, and developers who are interested in building interactive applications.
 
-It can also be useful for teachers who want to demonstrate emotion detection concepts in a simple way, and for anyone who wants to try a basic emotion analysis system without dealing with complex installation or 
+It can also be useful for teachers who want to demonstrate emotion detection concepts in a simple way, and for anyone who wants to try a basic emotion analysis system without dealing with complex installation or setup. 

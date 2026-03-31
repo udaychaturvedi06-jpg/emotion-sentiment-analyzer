@@ -54,13 +54,13 @@ class UdayAI:
         )
         self.result_label.pack(pady=10)
 
-        tk.Button(root, text="🎤 Record Audio",
+        tk.Button(root, text=" Record Audio",
                   command=self.record_audio).pack(pady=5)
 
-        tk.Button(root, text="📸 Upload Image",
+        tk.Button(root, text=" Upload Image",
                   command=self.upload_image).pack(pady=5)
 
-        tk.Button(root, text="🧊 Freeze / Unfreeze",
+        tk.Button(root, text=" Freeze / Unfreeze",
                   command=self.toggle_freeze).pack(pady=5)
 
         # CAMERA
@@ -318,7 +318,7 @@ class UdayAI:
                 text=f"Face: {self.face} ({self.conf}%)\n"
                      f"Voice: {self.audio}\n"
                      f"Final: {final}\n"
-                     f"History: {history_text}\n\n⏳ Stable Mode"
+                     f"History: {history_text}\n\n Stable Mode"
             )
 
         self.root.after(20, self.update_video)
